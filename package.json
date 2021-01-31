@@ -1,0 +1,13 @@
+{
+    "name": "count-chat",
+    "main": "lib/index.js",
+    "scripts": {
+        "lint": "tslint --project tsconfig.json",
+        "build": "tsc",
+        "start": "node lib/index.js"
+    },
+    "private": true,
+    "devDependencies": {
+        "@types/node": "^14.14.22"
+    }
+}
