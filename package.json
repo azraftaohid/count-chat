@@ -4,10 +4,14 @@
     "scripts": {
         "lint": "tslint --project tsconfig.json",
         "build": "tsc",
-        "start": "node lib/index.js"
+        "start": "npm run build && npm run serve",
+        "serve": "node lib/index.js"
     },
     "private": true,
     "devDependencies": {
         "@types/node": "^14.14.22"
+    },
+    "dependencies": {
+        "@thegoodcompany/common-utils-js": "^1.4.3"
     }
 }
